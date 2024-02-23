@@ -29,7 +29,7 @@ Standard and basic structure to assist in the quick start of tests, projects, po
 
 Created and maintained with fun and :heart: by [![Github](https://img.shields.io/badge/-ricardo%20melo%20martins-000?style=plastic&logo=github)](https://github.com/ricardo-melo-martins)
 
-## Licença
+## License
 
 [![License](https://img.shields.io/badge/license-MIT-green?style=plastic)](LICENSE.md)
 
