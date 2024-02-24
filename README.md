@@ -35,7 +35,6 @@ Available commands for:
 
 ### Code style
 - `format` - Prettier format code style
-- `compile` - Typescript default compile
 - `lint` - ESLint code format verify
 - `lint:fix` - ESLint verify and fix
 
