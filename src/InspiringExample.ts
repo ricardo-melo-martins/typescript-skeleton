@@ -4,12 +4,13 @@
  * Inspiring is similar to Illuminate/Inspiring.php
  * A simple laravel package that shows Inspirational quote on your console
  *
+ * Reference {@link https://github.com/laravel/framework/blob/10.x/src/Illuminate/Foundation/Inspiring.php}
+ *
  * Example
  *
  * console.log(Inspiring.quote())
  * on terminal $> Nothing worth having comes easy. - Theodore Roosevelt
  *
- * https://github.com/laravel/framework/blob/10.x/src/Illuminate/Foundation/Inspiring.php
  */
 export default class Inspiring {
   private static phrases: string[] = [
