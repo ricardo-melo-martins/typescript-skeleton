@@ -26,6 +26,7 @@ This is a basic framework, a minimalist template using Typescript. It assists me
 - [ESLint](https://eslint.org/) statically analyzes your code to quickly find problems. It is built into most text editors and you can run ESLint as part of your continuous integration pipeline.
 - [Prettier](https://prettier.io/) is an opinionated code formatter.
 - [Nodemon](https://nodemon.io/) is a utility, that will monitor for any changes in your source and automatically restart your server. Perfect for development.
+- [ts-node](https://typestrong.org/ts-node/) is a TypeScript execution engine and REPL for Node.js.
 - [@types/node](https://www.npmjs.com/package/@types/node) - This package contains type definitions for node (<https://nodejs.org/>).
 - [EditorConfig](https://editorconfig.org/) helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
 - [TypeDoc](https://typedoc.org) Automatic document generation
@@ -117,7 +118,7 @@ Available commands for:
 
 Formatting/Linting
 
-Install (dbaeumer.vscode-eslint)[https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint] extension in your VS Code to use eslint for formatting and linting. A configuration file (.eslintrc.js) is already provided in the project.
+Install [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extension in your VS Code to use eslint for formatting and linting. A configuration file (.eslintrc.js) is already provided in the project.
 
 
 ## License
