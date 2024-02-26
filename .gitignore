@@ -13,7 +13,8 @@ config/*
 # compiled output
 /dist
 /node_modules
-# /package-lock.json
+/package-lock.json
+/yarn.lock
 # /package.json
 # /tsconfig.json
 # /.eslintrc.js

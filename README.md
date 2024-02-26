@@ -30,6 +30,7 @@ This is a basic framework, a minimalist template using Typescript. It assists me
 - [@types/node](https://www.npmjs.com/package/@types/node) - This package contains type definitions for node (<https://nodejs.org/>).
 - [EditorConfig](https://editorconfig.org/) helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
 - [TypeDoc](https://typedoc.org) Automatic document generation
+- [npm-check-updates](https://github.com/raineorshine/npm-check-updates) upgrades your package.json dependencies to the latest versions, ignoring specified versions.
 
 ## How to use 
 
@@ -60,13 +61,18 @@ rm -rf .git
 Install dependencies
 
 ```bash
-npm install
+# Node.js >=20 is required
+npm i
+# or 
+yarn
 ```
 
 Run the project for local development.
 
 ```bash
-npm start:dev
+npm dev
+# or 
+yarn dev
 ```
 
 Build the project for a production environment.
@@ -75,6 +81,17 @@ Build the project for a production environment.
 npm run build
 ```
 
+Check the latest versions of all project dependencies:
+
+```sh
+npm run check
+
+Checking ...\typescript-skeleton\package.json
+[====================] 13/13 100%
+
+All dependencies match the latest package versions :)
+
+```
 
 ## Package.json
 
@@ -106,6 +123,10 @@ Available commands for:
 
 - `doc:gen` - Automatic document generate
 - `doc:clean` - Delete doc folder
+
+### Packages
+
+- `check` - Check the latest versions of all project dependencies
 
 ## System requirements
 
